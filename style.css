@@ -1,0 +1,207 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+body {
+    background-color: rgb(250, 250, 250);
+    margin: 20px 20px;
+}
+
+.wrapper {
+    display: grid;
+}
+
+.main-container {
+    display: grid;
+    margin: auto;
+    margin-top: 80px;
+    align-items: center;
+    grid-template-areas: 
+    'left right'
+    'bottom bottom';
+}
+
+.left {
+    grid-area: left;
+    justify-self: end;
+    padding-right: 25px;
+    position: relative;
+}
+
+.right {
+    grid-area: right;
+}
+
+footer {
+    grid-area: bottom;
+}
+
+.top-box {
+    display: grid;
+    border: 1px solid rgb(226, 226, 226);
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    padding: 20px 30px 0 30px;
+    padding-bottom: 20px;
+    grid-template-columns: 100%;
+    margin-top: 10px;
+    margin-right: 40px;
+}
+
+.insta {
+    justify-self: center;
+    align-items: center;
+}
+
+.log-in {
+    align-items: center;
+    justify-self: center;
+    margin-top: 30px;
+}
+
+#username, 
+#password {
+    background-color: rgb(252, 252, 252);
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 3px;
+    width: 260px;
+    height: 35px;
+    margin: 3px;
+    opacity: 70%;
+}
+
+::placeholder {
+    font-size: 11px;
+    padding-left: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#btn {
+    margin-top: 10px;
+    width: 265px;
+    height: 30px;
+    border-radius: 4px;
+    background-color: rgb(2, 141, 233);
+    border: 1px solid rgb(226, 226, 226);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.left-line {
+    display: flex;
+    margin: 25px 0 0 17px;
+    height: 1px;
+    width: 100px;
+    background-color: rgb(233, 233, 233);
+}
+
+.or {
+    justify-self: center;
+    font-size: 12px;
+    color: gray;
+    margin-top: 8px;
+    margin-bottom: 15px;
+}
+
+.facebook {
+    justify-self: center;
+}
+
+.facebook a {
+    text-decoration: none;
+    color: rgb(42, 73, 133);
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.forgot {
+    justify-self: center;
+}
+
+.forgot a {
+    text-decoration: none;
+    font-size: 11px;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    letter-spacing: 0.2px;
+}
+
+.middle-box {
+    display: grid;
+    border: 1px solid rgb(226, 226, 226);
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    grid-template-columns: 100%;
+    margin: 12px 40px 10px 0;
+    padding: 10px 0 10px 0;
+}
+
+.sign-up {
+    justify-self: center;
+    font-size: 12px;
+}
+
+.sign-up a {
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+.app {
+    display: grid;
+    margin: -10px 40px 0 0;
+    padding: 10px 0 10px 0;
+}
+
+.app p {
+    justify-self: center;
+    font-size: 13px;
+}
+
+.download {
+    display: grid;
+    margin: -20px 40px 0 0;
+    grid-template-areas:
+    'appstore playstore';
+}
+
+.appstore {
+    grid-area: appstore;
+    padding-left: 30px;
+}
+
+.playstore {
+    grid-area: playstore;
+    justify-self: start;
+    margin-left: -30px;
+    padding-left: -30px;
+}
+
+footer {
+    display: grid;
+    margin: 150px 0 50px -25px;
+    font-family: 'Lato', sans-serif;
+}
+
+.footer-links {
+    font-size: 12px;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: rgb(31, 31, 102);
+    padding: 6px;
+}
+
+.copyright {
+    font-size: 12px;
+    color: gray;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    opacity: 65%;
+}
